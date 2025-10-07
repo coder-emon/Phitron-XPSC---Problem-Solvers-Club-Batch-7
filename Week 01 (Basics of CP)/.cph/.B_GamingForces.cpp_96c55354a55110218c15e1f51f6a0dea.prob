@@ -1,0 +1,1 @@
+{"name":"Local: B_GamingForces","url":"c:\\Phitron XPSC Batch 07\\Week 01 (Basics of CP)\\B_GamingForces.cpp","tests":[{"id":1759819140604,"input":"3\n4\n1 2 1 2\n3\n2 4 2\n5\n1 2 3 4 5","output":"3\n3\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Phitron XPSC Batch 07\\Week 01 (Basics of CP)\\B_GamingForces.cpp","group":"local","local":true}

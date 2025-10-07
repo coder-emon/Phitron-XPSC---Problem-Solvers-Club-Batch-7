@@ -1,0 +1,1 @@
+{"name":"Local: U_Feynman","url":"c:\\Phitron XPSC Batch 07\\Week 01 (Basics of CP)\\U_Feynman.cpp","tests":[{"id":1759861981935,"input":"2\n1\n8\n0","output":"5\n1\n204"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Phitron XPSC Batch 07\\Week 01 (Basics of CP)\\U_Feynman.cpp","group":"local","local":true}
