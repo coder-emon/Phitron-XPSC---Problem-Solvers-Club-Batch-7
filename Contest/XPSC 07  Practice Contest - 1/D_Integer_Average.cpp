@@ -11,24 +11,29 @@ int main()
     int tc;
     cin >> tc;
     while(tc--){
-        int n;
+        ll n;
         cin >> n;
-        vector<int> v(n);
+        set<ll> st;
+        ll sum = 0;
+        bool duplicate = false;
+        int oddCnt = 0, evenCnt = 0;
         for(int i = 0; i < n; i++){
-            cin >>v[i];
+            ll x;
+            cin >> x;
+            if(x % 2 == 0)
+                evenCnt++;
+            else
+                oddCnt++;
+            sum += x;
+            if(st.count(x))
+                duplicate = true;
+            st.insert(x);
         }
 
-        int oddCnt = 0, evenCnt = 0;
-        for(int i = 1; i < n; i++){
-            if(v[i] % 2 != 0)
-                oddCnt++;
-            else
-                evenCnt++;
-        }
-        if(oddCnt >= 2 || evenCnt >= 2)
-            cout << "Yes" << nl;
+        if(duplicate || sum % n == 0 || oddCnt % 2 == 0 || evenCnt % 2 == 0)
+            cout << "YES" << nl;
         else
-            cout << "No" << nl;
+            cout << "NO" << nl;
     }
     
     return 0;
