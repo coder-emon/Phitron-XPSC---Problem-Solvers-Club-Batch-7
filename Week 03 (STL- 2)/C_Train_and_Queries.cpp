@@ -13,7 +13,6 @@ int main()
     while(tc--){
         int n, q;
         cin >> n >> q;
-        string s = "";
         map<int, set<int>> mp;
         for(int i = 1; i <= n; i++){
             ll x;
