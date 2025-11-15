@@ -23,18 +23,6 @@ int main()
         }
         cout << j - i + 1 << nl;
 
-        // approch 2 
-        // int i = 0, j = n-1, ans = n;
-        // while(i <= j){
-        //     if(s[i] == s[j])
-        //         break;
-        //     else{
-        //         ans -= 2;
-        //         i++; j--;
-        //     }
-        // }
-        // cout << ans << nl;
-
     }
     
     return 0;

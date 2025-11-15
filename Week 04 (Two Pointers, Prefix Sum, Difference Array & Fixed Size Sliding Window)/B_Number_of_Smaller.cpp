@@ -22,7 +22,7 @@ int main()
     int l = 0, r = 0;
     int cnt = 0;
     vector<int> ans;
-    while(1){
+    while(r < m){
         if(l < n && a[l] < b[r]){
             cnt++;
             l++;
@@ -30,7 +30,6 @@ int main()
             ans.push_back(cnt);
             r++;
         }
-        if(r == m) break;
     }
 
     for(int i = 0; i < ans.size(); i++){
