@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: jvbxs-sgnrg
+created: 2025-11-19T18:27:34+06:00
